@@ -1,0 +1,47 @@
+extends ../layouts/layout.pug
+
+block content
+	.start-page
+		h1.text-center Компоненты дизайна
+		h3 Цветовая схема
+		.container-dashboard__content
+			ul.color-scheme
+				li
+					span.color-box(style="background-color:#1C1B1B;")
+					span.color-name $base - #1C1B1B
+				li
+					span.color-box(style="background-color:#9A6437;")
+					span.color-name $accent1 - #9A6437
+				li
+					span.color-box(style="background-color:#B47139;")
+					span.color-name $accent2 - #B47139
+
+				li
+					span.color-box(style="background-color:#781414;")
+					span.color-name $accent3 - #781414
+
+				li
+					span.color-box(style="background-color:#737373;")
+					span.color-name $sec1 - #737373
+				li
+					span.color-box(style="background-color:#D3CBC5;")
+					span.color-name $sec2 - #D3CBC5
+				li
+					span.color-box(style="background-color:#808080;")
+					span.color-name $sec3 - #808080	
+
+				li
+					span.color-box(style="background-color:#E5E6E6;")
+					span.color-name $catBg - #E5E6E6
+				li
+					span.color-box(style="background-color:#F7F7F7;")
+					span.color-name $cardBg - #F7F7F7
+				
+				li
+					span.color-box(style="background-color:#DDD7D1;")
+					span.color-name $sectionBg - #DDD7D1
+
+			
+block variables
+	-var title = "Стартовая";
+	-var bodyCl = "body-dashboard"
