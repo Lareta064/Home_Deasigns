@@ -48,8 +48,41 @@
 	height:19px;
 	fill: #1B1A1A;
 }
-.svg-next{
+.svg-next,.svg-prev{
 	width: 17px;
 	height:30px;
 	fill: #1B1A1A;
+}
+
+.svg-reload{
+	width: 15px;
+	height: 15px;
+	fill: white;
+}
+.svg-returns{
+	width: 36px;
+	height: 47px;
+	fill: white;
+}
+.svg-search{
+	width: 18px;
+	height: 17px;
+	fill: #1B1A1A;
+}
+.svg-secure, .svg-shipping{
+	width: 47px;
+	height: 38px;
+	fill: white;
+}
+
+.svg-star{
+	width: 13px;
+	height: 13px;
+	fill: #F5CC26;
+
+}
+.svg-user{
+	width: 14px;
+	height: 15px;
+	fill: #9A6437;
 }
